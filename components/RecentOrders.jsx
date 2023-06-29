@@ -7,7 +7,7 @@ export const RecentOrders = () => {
       <h1>Recent Orders</h1>
       <ul>
         {orders.map((order, id) => (
-          <li key={id} className='bg-gray-50 hover:bg-gray-100 rounded-lg my-3 p-2 flex items-center cursor-pointer'>
+          <li key={id} className='bg-gray-50 hover:bg-gray-200 rounded-lg my-3 p-2 flex items-center cursor-pointer'>
             <div className='bg-purple-100 rounded-lg p-3'>
               <FaShoppingBag className='text-purple-800 ' />
             </div>

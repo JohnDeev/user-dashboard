@@ -1,5 +1,17 @@
 export const data = [
   {
+    id: 0,
+    name: {
+      first: 'Daniel',
+      last: 'Castaño',
+    },
+    total: 2795.95,
+    status: 'On Hold',
+    method: 'PayPal',
+    date: '15 Minutes ago',
+    email: 'daniel@gmail.com'
+  },
+  {
     id: 1,
     name: {
       first: 'John',
@@ -9,6 +21,8 @@ export const data = [
     status: 'On Hold',
     method: 'PayPal',
     date: '15 Minutes ago',
+    email: 'John@gmail.com'
+
   },
   {
     id: 2,
@@ -20,6 +34,8 @@ export const data = [
     status: 'Processing',
     method: 'PayPal',
     date: '23 Minutes ago',
+    email: 'Chris@gmail.com'
+
   },
   {
     id: 3,
@@ -31,6 +47,7 @@ export const data = [
     status: 'Completed',
     method: 'Visa',
     date: '1 Hour ago',
+    email: 'Sarah@gmail.com'
   },
   {
     id: 4,
@@ -42,6 +59,8 @@ export const data = [
     status: 'Processing',
     method: 'MasterCard',
     date: '1 Hour ago',
+    email: 'Joseph@gmail.com'
+
   },
   {
     id: 5,
@@ -53,6 +72,8 @@ export const data = [
     status: 'On Hold',
     method: 'PayPal',
     date: '2 Hour ago',
+    email: 'Steve@gmail.com'
+
   },
   {
     id: 6,
@@ -64,6 +85,8 @@ export const data = [
     status: 'Completed',
     method: 'Check',
     date: '3 Hour ago',
+    email: 'Laura@gmail.com'
+
   },
   {
     id: 7,
@@ -75,6 +98,8 @@ export const data = [
     status: 'Completed',
     method: 'MasterCard',
     date: '3 Hour ago',
+    email: 'Michael@gmail.com'
+
   },
   {
     id: 8,
@@ -86,6 +111,8 @@ export const data = [
     status: 'Completed',
     method: 'Visa',
     date: '7 Hour ago',
+    email: 'James@gmail.com'
+
   },
   {
     id: 9,
@@ -97,6 +124,8 @@ export const data = [
     status: 'Completed',
     method: 'PayPal',
     date: '1 Day ago',
+    email: 'Haley@gmail.com'
+
   },
   {
     id: 10,
@@ -108,6 +137,8 @@ export const data = [
     status: 'Completed',
     method: 'MasterCard',
     date: '1 Day ago',
+    email: 'Tim@gmail.com'
+
   },
   {
     id: 11,
@@ -119,5 +150,7 @@ export const data = [
     status: 'Completed',
     method: 'MasterCard',
     date: '1 Day ago',
+    email: 'Leo@gmail.com'
+
   },
 ];
